@@ -1,8 +1,8 @@
-# 🍔 Gestion de Fast-Food
+#  Gestion de Fast-Food
 
 Une application web moderne de gestion de fast-food construite avec **Next.js 14**, **React**, **TypeScript** et **Tailwind CSS**. Cette plateforme permet de gérer les menus, les commandes, l'historique des transactions et l'accès administrateur.
 
-## 📋 Table des matières
+##  Table des matières
 
 - [Caractéristiques](#caractéristiques)
 - [Technologies utilisées](#technologies-utilisées)
@@ -15,18 +15,18 @@ Une application web moderne de gestion de fast-food construite avec **Next.js 14
 - [Contribuer](#contribuer)
 - [Licence](#licence)
 
-## ✨ Caractéristiques
+##  Caractéristiques
 
-- 🔐 **Authentification** - Système de login pour administrateurs et serveurs
-- 🍽️ **Gestion des menus** - Interface pour consulter et gérer les produits
-- 🛒 **Panier** - Système de panier avec contexte global
-- 📊 **Historique** - Suivi complet des commandes et transactions
-- 👨‍💼 **Espace administrateur** - Dashboard pour les administrateurs
-- 🎨 **Interface moderne** - Design élégant avec Tailwind CSS et composants Shadcn/UI
-- 📱 **Responsive** - Adapté à tous les appareils (mobile, tablette, desktop)
-- 🌍 **Multilingue** - Interface en français
+-  **Authentification** - Système de login pour administrateurs et serveurs
+-  **Gestion des menus** - Interface pour consulter et gérer les produits
+-  **Panier** - Système de panier avec contexte global
+-  **Historique** - Suivi complet des commandes et transactions
+-  **Espace administrateur** - Dashboard pour les administrateurs
+-  **Interface moderne** - Design élégant avec Tailwind CSS et composants Shadcn/UI
+-  **Responsive** - Adapté à tous les appareils (mobile, tablette, desktop)
+-  **Multilingue** - Interface en français
 
-## 🛠️ Technologies utilisées
+##  Technologies utilisées
 
 ### Frontend
 - **Next.js 14** - Framework React moderne avec SSR
@@ -43,7 +43,7 @@ Une application web moderne de gestion de fast-food construite avec **Next.js 14
 - **Autoprefixer** - Préfixes CSS automatiques
 - **ESLint** - Linter pour le code
 
-## 🚀 Installation
+##  Installation
 
 ### Prérequis
 - **Node.js** 18+ 
@@ -97,7 +97,7 @@ Le fichier `next.config.mjs` contient la configuration Next.js. Modifiez-le selo
 
 Le fichier `tailwind.config.js` configure Tailwind CSS et les thèmes personnalisés.
 
-## 📖 Utilisation
+##  Utilisation
 
 ### Pages principales
 
@@ -122,9 +122,9 @@ Le fichier `tailwind.config.js` configure Tailwind CSS et les thèmes personnali
 - Nom d'utilisateur : `serveur`
 - Mot de passe : `serveur123`
 
-> ⚠️ **Important** : En production, remplacez cette authentification par un vrai système d'authentification côté serveur et une base de données sécurisée.
+>  **Important** : En production, remplacez cette authentification par un vrai système d'authentification côté serveur et une base de données sécurisée.
 
-## 📁 Structure du projet
+##  Structure du projet
 
 ```
 fast-food-management/
@@ -172,7 +172,7 @@ fast-food-management/
 └── README.md                 # Ce fichier
 ```
 
-## 🔐 Authentification
+##  Authentification
 
 ### Contexte d'authentification (`context/auth-context.tsx`)
 
@@ -193,7 +193,7 @@ const { user, login, logout, isAuthenticated, isAdmin } = useAuth()
 - `isAuthenticated` : État de connexion
 - `isAdmin` : Vérification du rôle admin
 
-## 🛒 Contexte du panier (`context/cart-context.tsx`)
+##  Contexte du panier (`context/cart-context.tsx`)
 
 Gérez le panier des clients avec un contexte global React.
 
@@ -201,7 +201,7 @@ Gérez le panier des clients avec un contexte global React.
 const { cart, addToCart, removeFromCart, clearCart } = useCart()
 ```
 
-## 📱 Composants UI
+##  Composants UI
 
 Le projet utilise **Shadcn/UI**, une collection de composants accessibles et personnalisables basés sur Radix UI. Composants disponibles :
 
@@ -217,7 +217,7 @@ Pour importer un composant :
 import { Button } from "@/components/ui/button"
 ```
 
-## 🏗️ Scripts disponibles
+##  Scripts disponibles
 
 ```bash
 # Démarrer le serveur de développement
@@ -233,7 +233,7 @@ npm start
 npm run lint
 ```
 
-## 📦 Dépendances principales
+##  Dépendances principales
 
 - `next` - Framework React moderne
 - `react` et `react-dom` - Bibliothèques React
@@ -244,7 +244,7 @@ npm run lint
 - `date-fns` - Manipulation de dates
 - `zod` - Validation de schémas TypeScript
 
-## 🚀 Déploiement
+##  Déploiement
 
 ### Vercel (recommandé pour Next.js)
 
@@ -265,7 +265,7 @@ EXPOSE 3000
 CMD ["npm", "start"]
 ```
 
-## 🐛 Dépannage
+##  Dépannage
 
 ### Port 3000 déjà utilisé
 ```bash
@@ -284,7 +284,7 @@ rm -rf node_modules package-lock.json
 npm install
 ```
 
-## 🤝 Contribuer
+##  Contribuer
 
 Les contributions sont bienvenues ! Pour contribuer :
 
@@ -294,20 +294,12 @@ Les contributions sont bienvenues ! Pour contribuer :
 4. Poussez vers la branche (`git push origin feature/AmazingFeature`)
 5. Ouvrez une Pull Request
 
-## 📝 Licence
+##  Licence
 
 Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
-## 👨‍💻 Auteur
+##  Auteur
 
 **Rania** - Développeuse
 
-## 📞 Support
 
-Pour toute question ou problème, veuillez ouvrir une issue sur GitHub.
-
----
-
-**Version** : 0.1.0  
-**Dernière mise à jour** : November 2025  
-**Built with ❤️ using Next.js**
